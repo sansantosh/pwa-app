@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pages/S1Fleet/MGTP-UI/precache-manifest.8b161b8809fd0fd82db2d9882cd842c7.js"
+  "/pages/S1Fleet/MGTP-UI/precache-manifest.780bb871398fde55e58f255726841a74.js"
 );
 
 workbox.clientsClaim();
