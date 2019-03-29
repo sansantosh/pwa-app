@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/S1Fleet/MGTP-UI/precache-manifest.ec66d494a15627b61ec2796c819f6841.js"
+  "/pages/S1Fleet/MGTP-UI/precache-manifest.8b161b8809fd0fd82db2d9882cd842c7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/S1Fleet/MGTP-UI/index.html", {
+workbox.routing.registerNavigationRoute("/pages/S1Fleet/MGTP-UI/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
